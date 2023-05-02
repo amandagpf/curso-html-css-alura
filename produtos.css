@@ -1,4 +1,3 @@
-
 header{
     background: #bbbbbb;
     padding: 20px 0;
@@ -29,10 +28,15 @@ nav a{
     text-decoration: none;
 }
 
+nav a:hover{
+    color: orangered;
+    text-decoration: underline;
+}
+
 .produtos{
     width: 940px;
-    margin: 0 auto;
-    padding: 50px 0;
+    margin: auto;
+    padding: 50px 0px;
 }
 
 .produtos li{
@@ -40,9 +44,23 @@ nav a{
     vertical-align: top;
     text-align: center;
     width: 30%;
-    margin: 0 1.5px;
+    margin: 0 10px;
     padding: 30px 20px;
     box-sizing: border-box;
+    border: 4px solid black;
+    border-radius: 30px;
+}
+
+.produtos li:hover h2{
+    font-size: 42px;
+}
+
+.produtos li:hover{
+    border-color: orangered;
+}
+
+.produtos li:active{
+    border-color: blue;
 }
 
 .produtos h2{
@@ -58,4 +76,16 @@ nav a{
     font-size: 22px;
     font-weight: bold;
     margin-top: 10px;
+}
+
+footer{
+    text-align: center;
+    background-image: url("bg.jpg");
+    padding: 40px 0;
+}
+
+.copyright{
+    color: white;
+    font-size: 13px;
+    margin-top: 20px;
 }

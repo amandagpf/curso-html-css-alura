@@ -3,6 +3,10 @@ body{
     align-items: center;
 }
 
+.titulo-principal{
+    padding-left: 40px;
+}
+
 #banner{
     width: 100%;
 }
@@ -12,8 +16,7 @@ body{
     padding: 20px;
 }
 
-h1{
-    border: 10px solid black;
+.titulo-centralizado{
     text-align: center;
 }
 
@@ -42,10 +45,6 @@ ul{
     display: inline-block;
     vertical-align: top;
     width: 40%;
-}
-
-h2{
-    text-align: center;
 }
 
 .barba{

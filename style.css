@@ -35,7 +35,7 @@ nav a:hover{
 
 .produtos{
     width: 940px;
-    margin: auto;
+    margin: 0 auto;
     padding: 50px 0px;
 }
 
@@ -44,7 +44,7 @@ nav a:hover{
     vertical-align: top;
     text-align: center;
     width: 30%;
-    margin: 0 10px;
+    margin: 0 1.5%;
     padding: 30px 20px;
     box-sizing: border-box;
     border: 4px solid black;
@@ -87,16 +87,16 @@ footer{
 .copyright{
     color: white;
     font-size: 13px;
-    margin-top: 20px;
+    margin: 20px 0 0;
 }
 
 main{
     width: 940px;
-    margin: 0;
+    margin: 0 auto;
 }
 
 form{
-    margin: 40px 40px;
+    margin: 40px 0px;
 }
 
 form label, form legend{
@@ -118,6 +118,7 @@ form label, form legend{
 
 .enviar{
     width: 40%;
+    margin: 60px;
     padding: 15px 0;
     background: orangered;
     color: white;
@@ -126,10 +127,26 @@ form label, form legend{
     border: none;
     border-radius: 9px;
     box-shadow: 4px 4px 4px black;
-    transition: 1s background;
+    transition: 1s all;
     cursor: pointer;
 }
 
 .enviar:hover{
     background: darkorange;
+    transform: scale(1.2);
+}
+
+table{
+    margin: 20px 0 40px;
+}
+
+thead{
+    background: #555555;
+    color: white;
+    font-weight: bold;
+}
+
+td, th{
+    border: 1px solid #000000;
+    padding: 15px 8px;
 }

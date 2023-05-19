@@ -56,7 +56,7 @@ nav a:hover{
 }
 
 .produtos li:hover h2{
-    font-size: 42px;
+    font-size: 32px;
 }
 
 .produtos li:hover{
@@ -68,7 +68,7 @@ nav a:hover{
 }
 
 .produtos h2{
-    font-size: 30px;
+    font-size: 26px;
     font-weight: bold;
 }
 
@@ -261,5 +261,9 @@ td, th{
     }
     .lista-beneficios, .barba{
         width: 100%;
+    }
+    .produtos, .produtos li{
+        margin: 15px auto;
+        width: 300px;
     }
 }
